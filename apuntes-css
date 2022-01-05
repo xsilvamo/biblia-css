@@ -24,6 +24,8 @@ Ejemplo flexbox -----
     /* flex direction define si es eje x(row) o y(colums) */
     flex-wrap: wrap;
     /* flex wrap: wrap ordena dentro del contenedor padre */
+    /* justify-content: flex-start - flex-end - center - space-between - space-around; */
+    flex-flow: row wrap;
 }
 
 .hijo{
