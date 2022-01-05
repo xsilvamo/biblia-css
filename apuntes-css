@@ -26,6 +26,8 @@ Ejemplo flexbox -----
     /* flex wrap: wrap ordena dentro del contenedor padre */
     /* justify-content: flex-start - flex-end - center - space-between - space-around; */
     flex-flow: row wrap;
+    align-content: center;
+    align-items: center;
 }
 
 .hijo{
