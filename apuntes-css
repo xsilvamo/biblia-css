@@ -10,3 +10,30 @@ Hacer un triangulo en css -----
 }
 
 -----------------
+
+Ejemplo flexbox -----
+
+.padre{
+    background: #0174b7;
+    width: 800px;
+    height: 500px;
+    padding: 40px;
+    display: flex;
+    /* Inicia flexbox */
+    flex-direction: row;
+    /* flex direction define si es eje x(row) o y(colums) */
+    flex-wrap: wrap;
+    /* flex wrap: wrap ordena dentro del contenedor padre */
+}
+
+.hijo{
+    width: 150px;
+    height: 150px;
+    font-size: 25px;
+    text-align: center;
+    background: #000;
+    color: #fff;
+    margin: 20px;
+}
+
+------------------
